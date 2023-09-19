@@ -1,0 +1,17 @@
+{
+  "name": "cypressjenkins",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:run": "npx cypress run",
+    "cy:run:chrome": "npx cypress run --browse chrome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.2.0"
+  }
+}
